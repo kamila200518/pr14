@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практика 14</title>
+</head>
+<body>
+    <div class="cont">
+        <div class="tabs">
+            <div class="tabs__btns">
+                <div class="tab__btn active-btn">Новость 1</div>
+                <div class="tab__btn">Новость 2</div>
+                <div class="tab__btn">Новость 3</div>
+            </div>
+        </div>
+        <div class="tabs__items">
+            <div class="tab__text active">
+                <div class="cards">
+                    <div class="card">
+                        <p class="doctor-name">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium, expedita molestiae sint nesciunt explicabo repellendus culpa suscipit sed nihil!</p>
+
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tab__text">
+                <div class="cards">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quisquam assumenda distinctio nulla iure nam sed mollitia ab alias nesciunt! Provident accusantium aspernatur non molestias, architecto distinctio recusandae deserunt ipsum labore ratione earum excepturi dignissimos maiores voluptates optio laudantium consequatur inventore nam libero! Ad error doloribus cumque rem minus vero?</p>
+                </div>
+            </div>
+            <div class="tab__text">
+                <div class="cards">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rerum, quis sit saepe earum cupiditate possimus accusamus aut voluptas odit adipisci minima a. Commodi tempora deleniti aliquid assumenda minima eaque placeat temporibus possimus dicta, repellat obcaecati blanditiis dolor fugiat ea? Corporis ex provident saepe officiis libero incidunt natus assumenda doloremque cum, voluptas dolorem, doloribus inventore, accusamus repudiandae ea sapiente ipsum exercitationem quam quidem dolore. Officiis facere iure alias inventore deserunt similique obcaecati. Porro, excepturi accusamus! Eos accusantium dolorem quibusdam magni, odio beatae expedita obcaecati deserunt alias, libero quis quod impedit reiciendis, reprehenderit facilis corporis sint quo veniam assumenda culpa voluptatibus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cont {
+    margin-top: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.maintitle {
+    margin-top: 40px;
+}
+
+.tabs__btns {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tab__btn {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 30px;
+    background: pink;
+    cursor: pointer;
+}
+
+.active-btn {
+    background: purple;
+    color: #fff;
+}
+
+.tabs__items {
+    margin-top: 44px;
+}
+
+
+
+.tab__text {
+    display: none;
+}
+
+.tab__text.active {
+    display: block;
+}
+</style>
